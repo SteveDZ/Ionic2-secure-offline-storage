@@ -1,0 +1,20 @@
+<ion-content>
+    <ion-navbar *navbar>
+        <ion-title>{{patient.firstName}}'s Details</ion-title>
+    </ion-navbar>
+    
+    <!--<ion-toolbar>
+        <ion-title>{{patient.firstName}}'s Details</ion-title>
+    </ion-toolbar>-->
+    
+    <div>{{patient.firstName}}</div>
+    <div>{{patient.lastName}}</div>
+    <div>{{patient.socialSecurityNumber}}</div>
+    <div>
+        <ion-list>
+            <ion-item *ngFor="let disease of patient.medicalHistory">
+                {{disease}}
+            </ion-item>
+        </ion-list>
+    </div>    
+</ion-content>
