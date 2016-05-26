@@ -11,9 +11,9 @@ export class SensitiveDataPage {
     
     constructor(public nav: NavController) {
         this.patients = [
-            new Patient('Steve', 'De Zitter', '123456-789-00', ['Windpokken', 'Mazelen', 'RSV']),
-            new Patient('Iemand', 'Anders', '987654-321-00', ['Windpokken','Meningitis']),
-            new Patient('Roger', 'Vandenbrande', '653765-987-00', ['Windpokken', 'Bof'])
+            new Patient('Captain', 'America', '123456-789-00', ['Chickenpox', 'Measles']),
+            new Patient('Iron', 'Man', '987654-321-00', ['Chickenpox','Meningitis']),
+            new Patient('Tho', 'rrrr', '653765-987-00', ['Chickenpox', 'Bronchiolitis'])
         ];
     }
     
