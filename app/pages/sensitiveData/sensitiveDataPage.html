@@ -6,10 +6,9 @@
 
     
     <ion-list>
-        <ion-item *ngFor="let patient of patients" (click)="openDetail(patient)"> <!-- (click)="openDetail(patient)"-->
+        <ion-item *ngFor="let patient of patients" (click)="openDetail(patient)">
             <h2>{{patient.lastName}} {{patient.firstName}}</h2>
             <h3>{{patient.socialSecurityNumber}}</h3>
-            <!-- <p>extra shizzles</p>-->
         </ion-item>
     </ion-list>
 </ion-content>
